@@ -13,3 +13,8 @@ User should be able to:
   4. Java 17
   5. Spring Data JPA (Hibernate)
   6. Thymeleaf
+
+![loginregister](https://user-images.githubusercontent.com/83831759/171015389-a5abfde9-37c4-48ca-9149-0f55be76f283.png)
+
+### Application Architecture
+![AppArchitecture](https://user-images.githubusercontent.com/83831759/171015852-df982d57-e0a0-481c-b56c-c5989e3b521c.png)
