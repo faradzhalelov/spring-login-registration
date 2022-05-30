@@ -23,7 +23,6 @@ public class UserServiceImpl implements UserService{
     @Autowired
     private UserRepository userRepository;
 
-
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
@@ -45,7 +44,6 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-
         User user = userRepository.findByEmail(username);
         if(user == null) {
             throw new UsernameNotFoundException("Invalid username or password");
